@@ -1,0 +1,77 @@
+$font-size: 12px;
+
+.nevy-top-menu {
+  box-sizing: border-box;
+
+  z-index: 9999;
+  font-size: $font-size;
+  padding: 5px 10px 5px 100px !important;
+  margin: unset !important;
+  border-radius: 0;
+
+  height: 50px !important;
+
+  .comfy-close-menu-btn {
+    display: none;
+  }
+
+  .comfy-queue-btn {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100px;
+  }
+
+  .comfy-settings-btn {
+    position: fixed;
+    top: 25px;
+    left: 0;
+  }
+
+  .comfy-menu-btns {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #crystools-monitor-container {
+    display: flex;
+    flex-direction: row;
+
+    > div {
+      width: 50px !important;
+
+      > div:nth-child(2) {
+        width: 40px !important;
+      }
+    }
+  }
+
+  .comfy-menu-header {
+    .drag-handle {
+      display: none;
+    }
+
+    &.comfy-menu-header {
+      width: fit-content !important;
+      position: fixed !important;
+      top: 20px;
+      left: 0;
+    }
+  }
+
+  hr {
+    display: none;
+  }
+
+  > button {
+    width: 100%;
+    font-size: $font-size;
+    border-radius: 3px;
+  }
+
+  .comfy-menu-queue-size {
+    flex: none;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}

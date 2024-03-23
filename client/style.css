@@ -1,0 +1,61 @@
+.nevy-top-menu {
+  box-sizing: border-box;
+  z-index: 9999;
+  font-size: 12px;
+  padding: 5px 10px 5px 100px !important;
+  margin: unset !important;
+  border-radius: 0;
+  height: 50px !important;
+}
+.nevy-top-menu .comfy-close-menu-btn {
+  display: none;
+}
+.nevy-top-menu .comfy-queue-btn {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+.nevy-top-menu .comfy-settings-btn {
+  position: fixed;
+  top: 25px;
+  left: 0;
+}
+.nevy-top-menu .comfy-menu-btns {
+  display: flex;
+  flex-direction: row;
+}
+.nevy-top-menu #crystools-monitor-container {
+  display: flex;
+  flex-direction: row;
+}
+.nevy-top-menu #crystools-monitor-container > div {
+  width: 50px !important;
+}
+.nevy-top-menu #crystools-monitor-container > div > div:nth-child(2) {
+  width: 40px !important;
+}
+.nevy-top-menu .comfy-menu-header .drag-handle {
+  display: none;
+}
+.nevy-top-menu .comfy-menu-header.comfy-menu-header {
+  width: fit-content !important;
+  position: fixed !important;
+  top: 20px;
+  left: 0;
+}
+.nevy-top-menu hr {
+  display: none;
+}
+.nevy-top-menu > button {
+  width: 100%;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.nevy-top-menu .comfy-menu-queue-size {
+  flex: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

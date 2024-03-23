@@ -1,0 +1,15 @@
+{
+  "name": "nevysha-top-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Nevysha",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch client:client"
+  },
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}
