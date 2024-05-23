@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-nevysha-top-menu"
+description = "A simple sidebar tweak to force fixe the ComfyUI menu to the top of the screen. Reaaally quick and dirty. May break with some ComfyUI setup."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Nevysha/ComfyUI-nevysha-top-menu"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-nevysha-top-menu"
+Icon = ""
